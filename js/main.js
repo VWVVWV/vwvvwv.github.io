@@ -344,14 +344,14 @@ document.addEventListener('DOMContentLoaded', function () {
         if (isDown) {
           if ($header.classList.contains('nav-visible')) $header.classList.remove('nav-visible')
           if (isChatBtnShow && isChatShow === true) {
-            chatBtnHide()
-            isChatShow = false
+            // chatBtnHide()
+            // isChatShow = false
           }
         } else {
           if (!$header.classList.contains('nav-visible')) $header.classList.add('nav-visible')
           if (isChatBtnHide && isChatShow === false) {
-            chatBtnShow()
-            isChatShow = true
+            // chatBtnShow()
+            // isChatShow = true
           }
         }
         $header.classList.add('nav-fixed')
